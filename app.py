@@ -56,7 +56,6 @@ k = 3
 kmeans = KMeans(
     n_clusters=k,
     random_state=42
-    n_init=10
 )
 
 kmeans.fit(X_train)
